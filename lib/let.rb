@@ -19,3 +19,5 @@ module Let
     end
   end
 end
+
+require 'rails/let' if defined?(Rails)

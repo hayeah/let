@@ -15,8 +15,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "let"
   gem.homepage = "http://github.com/hayeah/let"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Memoized attributes}
+  gem.description = %Q{Same as RSpec's let}
   gem.email = "hayeah@gmail.com"
   gem.authors = ["Howard Yeh"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,

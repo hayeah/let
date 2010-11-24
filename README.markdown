@@ -2,14 +2,14 @@
 
 Memoized methods for objects, like rspec's let.
 
-class Foo
-  include Let
-  let(:field1) { rand }
-end
+    class Foo
+      include Let
+      let(:field1) { rand }
+    end
 
-foo = Foo.new
-foo.field1 # =>
-foo.instance_variable_get("@field1") == foo.field1
+    foo = Foo.new
+    foo.field1 # =>
+    foo.instance_variable_get("@field1") == foo.field1
 
 
 ## Rails

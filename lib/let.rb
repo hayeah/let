@@ -1,4 +1,5 @@
 module Let
+  require 'let/railtie' if defined?(Rails)
   def self.included(klass)
     klass.extend ClassMethods
   end
@@ -20,4 +21,3 @@ module Let
   end
 end
 
-require 'rails/let' if defined?(Rails)
